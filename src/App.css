@@ -1,5 +1,11 @@
 .App {
-  background-color: #282c34;
+  margin: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {

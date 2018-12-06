@@ -11,7 +11,7 @@ class VenueCard extends Component {
 
     return (
       <Card raised style={{ height: 250 }}>
-        <CardHeader title={ venue.name } subheader={ venue.address1 + ', ' + venue.city } />
+        <CardHeader title={ venue.name } subheader={ venue.address1 + ', ' + venue.city + ' ' + venue.postcode } />
         <CardContent>
           <Typography>{ venue.listing_text }</Typography>
         </CardContent>
